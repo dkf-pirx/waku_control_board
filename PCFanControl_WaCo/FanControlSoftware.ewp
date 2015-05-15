@@ -2251,6 +2251,12 @@
     </settings>
   </configuration>
   <file>
+    <name>$PROJ_DIR$\source\io.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\source\io.h</name>
+  </file>
+  <file>
     <name>$PROJ_DIR$\source\main.c</name>
   </file>
   <file>
