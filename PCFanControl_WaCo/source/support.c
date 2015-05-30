@@ -30,7 +30,7 @@ void wait_ms( unsigned int uTimeInMs )
    CCR0 = (unsigned int) ulNoTicks;                     // period is unround
    TACTL = TASSEL_1 + MC_1;                  // ACLK, upmode
    
-   while ( CCTL0 != CCIFG )
+   while ( (CCTL0 & CCIFG) == 0 )            // wait for interrupt
    {
    }
    
