@@ -418,7 +418,7 @@
         </option>
         <option>
           <name>CCOptLevel</name>
-          <state>1</state>
+          <state>0</state>
         </option>
         <option>
           <name>CCOptStrategy</name>
@@ -427,7 +427,7 @@
         </option>
         <option>
           <name>CCOptLevelSlave</name>
-          <state>1</state>
+          <state>0</state>
         </option>
         <option>
           <name>CInput</name>
@@ -2264,6 +2264,12 @@
   </file>
   <file>
     <name>$PROJ_DIR$\source\support.h</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\source\uart.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\source\uart.h</name>
   </file>
 </project>
 

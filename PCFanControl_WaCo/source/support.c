@@ -27,7 +27,7 @@ void wait_ms( unsigned int uTimeInMs )
    
    ulNoTicks = ( ((unsigned long)uTimeInMs) * 32767 ) / 1000;
    
-   CCR0 = (unsigned int) ulNoTicks;                     // period is unround
+   CCR0 = (unsigned int) ulNoTicks;          // period is unround
    TACTL = TASSEL_1 + MC_1;                  // ACLK, upmode
    
    while ( (CCTL0 & CCIFG) == 0 )            // wait for interrupt
